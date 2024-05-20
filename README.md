@@ -14,6 +14,25 @@ The Student Management System is a web-based application built using PHP and MyS
 - **Web Browser Compatibility**: Mozilla Firefox, Google Chrome, Internet Explorer 8, Opera
 - **Software**: XAMPP, Wamp, MAMP, LAMP (anyone)
 
+## How to Run the Student Management Project using PHP and MySQL
+1. **Download the project zip file**
+2. **Extract the file and copy the `studentms` folder**
+3. **Paste inside the root directory** (for XAMPP `xampp/htdocs`, for Wamp `wamp/www`, for LAMP `var/www/Html`)
+4. **Open PHPMyAdmin** (http://localhost/phpmyadmin)
+5. **Create a database** with the name `studentmsdb`
+6. **Import `studentmsdb.sql` file** (found inside the zip package in the SQL file folder) into the `studentmsdb` database
+7. **Run the script** http://localhost/studentms
+
+### Admin Credential
+- **Username:** admin
+- **Password:** Test@123
+
+### Credential for Student / User panel:
+- **Username:** anujk3
+- **Password:** Test@123
+
+Or register a new Student/User.
+
 ## Project Modules
 ### Admin
 - **Dashboard**: Overview of system statistics such as Total Classes, Total Students, Notices, etc.
@@ -59,4 +78,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to customize this README to fit the specific details and structure of your project. Ensure to replace `<repository-url>` with your actual GitHub repository URL.
+Feel free to further customize this README to suit your project's specific details and structure. Replace `<repository-url>` with your actual GitHub repository URL.
